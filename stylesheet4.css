@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f5f9;
+    color: #0f1e3c;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f1e3c;
+    color: white;
+    padding: 15px 30px;
+}
+
+#logo {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap row;
+    gap: 20px;
+}
+
+nav a:hover {
+    color: #d4b04c;
+}
+
+h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding: 40px 30px 10px 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 30px 40px 30px;
+}
+
+.bloque {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #d4b04c;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type="date"], input[type="number"] {
+    padding: 12px;
+    border: 2px solid #c8cfdd;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.viajeros {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viajeros input {
+    width: 90px;
+}
+
+button {
+    background-color: #d4b04c;
+    color: #0f1e3c;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6c766;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0f1e3c;
+    color: white;
+    padding: 25px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Planea tu viaje - Once Upon a Trip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="formulario para cotizar un viaje a Disney">
+    <meta name="author" content="isabella calzada ronquillo">
+    <link rel="stylesheet" href="stylesheet4.css">
+    </head>
+    <body>
+
+        <header>
+            <div id="logo">ONCE UPON A TRIP</div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index2.html">Explorar</a>
+                <a href="index3.html">Destino</a>
+                <a href="index4.html">Planear</a>
+            </nav>
+        </header>
+
+        <h1>LET'S PLAN YOUR TRIP</h1>
+
+        <form>
+
+            <div class="bloque">
+                <h2><span class="numero">01</span> DESTINATION</h2>
+                <label><input type="radio" name="destino" value="wdw" checked> Walt Disney World</label>
+                <label><input type="radio" name="destino" value="california"> Disneyland California</label>
+                <label><input type="radio" name="destino" value="paris"> Disneyland Paris</label>
+            </div>
+
+            <div class="bloque">
+                <h2><span class="numero">02</span> TRAVEL DATES</h2>
+                <label for="salida">Salida</label>
+                <input type="date" id="salida" name="salida">
+                <label for="regreso">Regreso</label>
+                <input type="date" id="regreso" name="regreso">
+            </div>
+
+            <div class="bloque">
+                <h2><span class="numero">03</span> TRAVELERS</h2>
+                <div class="viajeros">
+                    <label for="adultos">Adultos</label>
+                    <input type="number" id="adultos" name="adultos" min="1" value="2">
+                </div>
+                <div class="viajeros">
+                    <label for="ninos">Niños</label>
+                    <input type="number" id="ninos" name="ninos" min="0" value="1">
+                </div>
+            </div>
+
+            <div class="bloque">
+                <h2><span class="numero">04</span> EXPERIENCE</h2>
+                <label><input type="radio" name="experiencia" value="familia" checked> Family Trip</label>
+                <label><input type="radio" name="experiencia" value="pareja"> Couple's Getaway</label>
+                <label><input type="radio" name="experiencia" value="primera"> First Disney Trip</label>
+                <label><input type="radio" name="experiencia" value="escape"> Magical Escape</label>
+            </div>
+
+            <button type="submit">GET MY QUOTE</button>
+
+        </form>
+
+        <footer>
+            <p>© 2026 Once Upon a Trip</p>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f5f9;
+    color: #0f1e3c;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f1e3c;
+    color: white;
+    padding: 15px 30px;
+}
+
+#logo {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap row;
+    gap: 20px;
+}
+
+nav a:hover {
+    color: #d4b04c;
+}
+
+#titulo {
+    padding: 40px 30px 0 30px;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.filtros {
+    display: flex;
+    flex-flow: wrap row;
+    gap: 12px;
+}
+
+.filtro {
+    border: 2px solid #c8cfdd;
+    border-radius: 30px;
+    padding: 10px 22px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.activo {
+    background-color: #0f1e3c;
+    color: white;
+    border-color: #0f1e3c;
+}
+
+#viajes {
+    padding: 40px 30px;
+}
+
+h2 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.fila {
+    display: flex;
+    flex-flow: wrap row;
+    gap: 25px;
+}
+
+.tarjeta {
+    width: 340px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.foto {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 12px;
+    color: white;
+}
+
+.magic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(15, 30, 60, 0.7)), url("imagenes/magic-kingdom.jpg");
+    background-color: #5b72a8;
+}
+
+.paris {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(15, 30, 60, 0.7)), url("imagenes/disneyland-paris.jpg");
+    background-color: #9a7fa0;
+}
+
+.california {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(15, 30, 60, 0.7)), url("imagenes/disneyland-california.jpg");
+    background-color: #a8924a;
+}
+
+.info {
+    padding: 20px;
+}
+
+.lugar {
+    font-size: 13px;
+    color: #6b7589;
+    letter-spacing: 1px;
+}
+
+.info h3 {
+    font-size: 22px;
+    margin: 6px 0 8px 0;
+}
+
+.info p {
+    line-height: 1.4;
+}
+
+.precio-fila {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.desde {
+    font-size: 13px;
+    color: #6b7589;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton {
+    background-color: #d4b04c;
+    color: #0f1e3c;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+}
+
+.boton:hover {
+    background-color: #e6c766;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0f1e3c;
+    color: white;
+    padding: 25px;
+}
