@@ -15,7 +15,6 @@ a {
     color: inherit;
 }
 
-/* ---------- HEADER ---------- */
 header {
     display: flex;
     flex-flow: wrap row;
@@ -41,9 +40,7 @@ nav a:hover {
     color: #d4b04c;
 }
 
-/* ---------- PORTADA (foto de fondo) ---------- */
 #portada {
-    /* la capa oscura va encima de la foto para que se lea el texto */
     background-image: linear-gradient(rgba(15, 30, 60, 0.4), rgba(15, 30, 60, 0.6)), url("imagenes/walt-disney-world.jpg");
     background-color: #2d4b80;
     background-size: cover;
@@ -65,7 +62,6 @@ nav a:hover {
     margin-top: 10px;
 }
 
-/* ---------- SECCIONES ---------- */
 #porque, #parques, #hoteles {
     padding: 35px 30px 0 30px;
 }
@@ -81,7 +77,6 @@ h2 {
     max-width: 700px;
 }
 
-/* ---------- PARQUES CON FOTO ---------- */
 .fila-parques {
     display: flex;
     flex-flow: wrap row;
@@ -102,7 +97,6 @@ h2 {
     font-size: 18px;
 }
 
-/* la capa oscura abajo ayuda a que se lea el nombre */
 .magic {
     background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(15, 30, 60, 0.8)), url("imagenes/magic-kingdom.jpg");
     background-color: #5b72a8;
@@ -123,7 +117,6 @@ h2 {
     background-color: #4d7a5a;
 }
 
-/* ---------- LISTA DE HOTELES ---------- */
 .lista {
     display: flex;
     flex-flow: column;
@@ -147,7 +140,6 @@ h2 {
     font-size: 20px;
 }
 
-/* ---------- BOTON ---------- */
 #boton-final {
     display: flex;
     justify-content: center;
@@ -171,7 +163,6 @@ h2 {
     background-color: #e6c766;
 }
 
-/* ---------- FOOTER ---------- */
 footer {
     display: flex;
     justify-content: center;
